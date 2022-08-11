@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+#title {
+    text-align: center;
+    margin-top:50px;
+    color: #F94F6D
+}
+
+.basketball-scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    align-self: center;
+    background-color: #1B244A;
+    border-radius: 15px;
+}
+
+#home {
+    color: #EEEEEE;
+    font-size: 30px;
+}
+#guest {
+    color: #EEEEEE;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+#home-score {
+  background-color: black;
+  width: 117px;
+  height: 120px;
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #F94F6D;
+  border-radius: 5px;
+}
+#guest-score {
+    width: 117px;
+    height: 120px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    background-color: black;
+    color: #F94F6D;
+}
+
+#btn-1 {
+width: 30px;
+height: 25.77px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+background-color: #1B244A;
+color: #9AABD8;
+border:2px solid #9AABD8;
+border-radius: 5px;
+}
+
+#btn-2 {
+    width: 30px;
+    height: 25.77px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border:2px solid #9AABD8;
+    border-radius: 5px;
+    }
+
+    #btn-3 {
+        width: 30px;
+        height: 25.77px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        font-family: 'Cursed Timer ULiL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        background-color: #1B244A;
+        color: #9AABD8;
+        border:2px solid #9AABD8;
+        border-radius: 5px;
+        }
+
+#btn-1:active {
+    background-color: #F94F6D;
+}
+#btn-2:active {
+    background-color: #F94F6D;
+}
+#btn-3:active {
+    background-color: #F94F6D;
+}
+
+#newgame {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    margin-top: 300px;
+    margin-left:10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1B244A;
+    color:#9AABD8;
+    border:2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#newgame:active {
+  background-color: #F94F6D;
+}
+
+#vs {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    color:#EEEEEE;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+
